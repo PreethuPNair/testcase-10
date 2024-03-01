@@ -1,0 +1,23 @@
+.videoplay_section {
+    background-image: url("../images/SalonistBlog.jpeg");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    &__iconborder { 
+        border: 2px solid white;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .icon {
+            height: 30px;
+        }
+    }
+}

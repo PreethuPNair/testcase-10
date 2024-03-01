@@ -1,0 +1,26 @@
+
+.header_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 50px;
+
+    &__nav_list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+    }
+}
+
+@include mobile {
+
+    .header__nav_list {
+        gap: 3px;
+    }
+
+    .header {
+        height: 100px;
+    }
+}

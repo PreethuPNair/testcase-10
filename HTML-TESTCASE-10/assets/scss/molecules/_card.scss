@@ -1,0 +1,33 @@
+.card {
+    box-sizing: border-box;
+    border: 2px solid $input-border;
+    padding: 20px 25px 4px;
+
+    .quote_box {
+        margin-top: -55px;
+    }
+
+
+    h3 {
+        font-size: 25px;
+        font-weight: 500;
+        margin: 0;
+        color: $subhead;
+    }
+
+    p {
+        color: $para;
+    }
+
+    h4 {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+
+    h5 {
+        margin-top: 2px;
+        font-size: 15px;
+        font-weight: 500;
+        color: $destination;
+    }
+}

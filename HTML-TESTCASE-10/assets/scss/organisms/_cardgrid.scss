@@ -1,0 +1,18 @@
+.card_grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px 15px;
+
+    .card {
+        width: calc(33.33% - 10px);
+    }
+}
+
+@include mobile {
+
+    .card_grid {
+        .card {
+            width: 100%;
+        }
+    }
+}

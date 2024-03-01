@@ -1,0 +1,21 @@
+.textarea_box {
+    border: 2px solid $input-border;
+    display: flex;
+    width: 100%;
+    
+    &__textarea {
+        box-sizing: border-box;
+        width: 95%;
+        height: 70px;
+        padding-left: 15px;
+        padding-top: 10px;
+        border: none;
+        outline: none;
+    }
+
+    &__icon {
+        height: 28px;
+        padding-top: 6px;
+        padding-left: 3px;
+    }
+}

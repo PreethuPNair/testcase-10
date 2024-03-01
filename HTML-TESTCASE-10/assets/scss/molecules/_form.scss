@@ -1,0 +1,16 @@
+.form {
+    display: block;
+    width: 100%;
+    h1 {
+        margin: 0;
+        color: $violet;
+    }
+
+    &__section {
+        background: white;
+        margin-top: 35px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}

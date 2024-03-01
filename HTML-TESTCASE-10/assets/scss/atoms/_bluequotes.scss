@@ -1,0 +1,13 @@
+.quote_box {
+    background: $quote-color;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__icon {
+        height: 28px;
+    }
+}
